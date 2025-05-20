@@ -36,3 +36,5 @@ pfSense requires at least two network adapters:
      
      <img src=https://github.com/user-attachments/assets/d8977746-9168-4b04-aad6-f25ff0744b90 width=400>
 
+     <img src=https://github.com/user-attachments/assets/81469193-a09d-4736-8967-a85e8db1bfdd width=400>
+

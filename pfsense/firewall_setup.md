@@ -38,8 +38,6 @@ pfSense requires at least two network adapters:
    <img src="https://github.com/user-attachments/assets/84124ca1-f367-4252-8006-13b598cdbf92" width=500>
 
 3. Skip the remaining prompts, and your done!
-
-   Note: I chose not to include it since its not relevant for a guide.
    
-   ![image](https://github.com/user-attachments/assets/7665f32e-3c2d-4bf7-b178-eae4334b905e)
+   <img src=https://github.com/user-attachments/assets/7665f32e-3c2d-4bf7-b178-eae4334b905e width=500>
 

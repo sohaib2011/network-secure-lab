@@ -1,3 +1,5 @@
+### VMware Configurations 
+
 1. Since my Ubuntu Server runs in terminal-mode, and lynx is insufficient for the full access of pfsense interface, we need proper GUI access to pfSense.
 
    The best approach for this would be to access the web interface from host.
@@ -25,7 +27,7 @@
 
 6. Heretter endrer du nettverksegenskapene til det ønskelige for ditt miljø. Foretrukket DNS-server er satt opp til å bli 8.8.8.8 fordi google=konge
 
-<img src=https://github.com/user-attachments/assets/91103618-d366-473a-bad4-65fbf359f36f width=350>
+   <img src=https://github.com/user-attachments/assets/91103618-d366-473a-bad4-65fbf359f36f width=350>
 
 
 
@@ -33,4 +35,4 @@
 
 Result:
 
-<img src=https://github.com/user-attachments/assets/2dfa5818-3f61-4aec-a596-3873aa0371df width=600>
+   <img src=https://github.com/user-attachments/assets/2dfa5818-3f61-4aec-a596-3873aa0371df width=600>

@@ -6,7 +6,7 @@ This guide will showcase how to configure an Ubuntu Server as a LAN client in a 
 
 The default network adapter is set to NAT. Change it to VMnet2, which is used by pfsense.
 
-<img src="https://github.com/user-attachments/assets/669030e9-c584-4147-b7b7-865d368f5077" width="400">
+<img src="https://github.com/user-attachments/assets/669030e9-c584-4147-b7b7-865d368f5077" width="300">
 
 ---
 

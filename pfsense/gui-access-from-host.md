@@ -1,0 +1,9 @@
+1. Since my Ubuntu Server runs in terminal-mode, and lynx is insufficient for the full access of pfsense interface, we need proper GUI access to pfSense.  
+
+   The best approach for this would be to access the web interface from host
+
+2. In VMware Workstatin, go to Edit -> Virtual Network Editor
+
+3. Select the internal network pfSense LAN is using, which in my case is vmnet2
+
+4. Make sure the network type is set to host-only and apply the changes

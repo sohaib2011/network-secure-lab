@@ -11,9 +11,9 @@ pfSense requires at least two network adapters:
 - WAN: Connected to NAT, which provides internet access  
 - LAN: Connected to an internal communication
 
-1. Open **VM Settings** → Click **Add** and choose **Network Adapter**. This creates a new adapter.
+1. Open VM Settings → Add and choose Network Adapter. This creates a new adapter.
 
-2. New adapter: Change network connection to **Custom** → Select **VMnet2** or any other internal network.
+2. New adapter: Change network connection to Custom → Select VMnet2 or any other internal network.
 
    ![image](https://github.com/user-attachments/assets/3b6f1193-ea94-4edf-8405-ed3bfffba5ac)
 

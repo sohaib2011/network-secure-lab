@@ -19,3 +19,20 @@ This guide is a walkthrough for setting up a webserver inside a DMZ
 5. Finally, we enable the interface to allow netweork communicatoin for the dmz:
 
    ![image](https://github.com/user-attachments/assets/b62cfb66-0d49-43ec-b13d-8675d4c954d5)
+
+ 
+### Ubuntu Network Adapter Configuration
+The LAN client cant share the same network interface as the dmz webserver. The simplesst appproach is to clone the existing Ubuntu VM and chcange its network adapter to VMnet3
+
+ 1. ens33 (the adapter connected to VMnet) is not assigned to any ip adresses. Since this server will act as the webserver in DMZ, we must assign a static ip adress. Assignment through DHCP would be unideal and a bad choice for tihs
+
+     ![image](https://github.com/user-attachments/assets/e5d596f7-d638-4968-ab99-85cfe2c5c564)
+
+ 2. gg
+
+     ![image](https://github.com/user-attachments/assets/eee16e82-fb3f-44e6-9876-55b2e45fd6b1)
+
+ 4. gsags
+
+      ![image](https://github.com/user-attachments/assets/93c7bf06-983b-49c9-815f-13f71b028a7e)
+

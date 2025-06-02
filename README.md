@@ -9,7 +9,11 @@ This lab replicates a simplified enterprise network environment using **pfSense*
 - **LAN (Local Area Network):**
   - Connected to VMnet2, and represents the internal network where trusted hosts can operate
   - DHCP is handled by pfSense to assign IPs within the LAN subnet
-
+    
+- **DMZ (Demilitarized Zone):** 
+  - This network will host services exposed to NAT (e.g Apache webserver) in a seperated, isolated subnet to reduce risk to the internal LAN
+  - Allows inbound traffic from WAN, but blocks all outgoing from DMZ to LAN
+  
 ---
 
 

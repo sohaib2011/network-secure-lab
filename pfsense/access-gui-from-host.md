@@ -27,6 +27,9 @@
 
 6. Heretter endrer du nettverksegenskapene til det ønskelige for ditt miljø. Foretrukket DNS-server er satt opp til å bli 8.8.8.8 fordi google=konge
 
+   **OBS:** Den statiske ip-adressen du skriver inn vil fungere som default gateway, og vil sende trafikk ut av nettverket
+
+
    <img src=https://github.com/user-attachments/assets/91103618-d366-473a-bad4-65fbf359f36f width=350>
 
 

@@ -28,11 +28,14 @@ The LAN client cant share the same network interface as the dmz webserver. The s
 
      ![image](https://github.com/user-attachments/assets/e5d596f7-d638-4968-ab99-85cfe2c5c564)
 
- 2. gg
+ 2. Netplan is responsible for the network config for the server, hence we need to locate its respective .yaml file.
 
      ![image](https://github.com/user-attachments/assets/eee16e82-fb3f-44e6-9876-55b2e45fd6b1)
 
- 4. gsags
+     ![image](https://github.com/user-attachments/assets/93c7bf06-983b-49c9-815f-13f71b028a7e)
 
-      ![image](https://github.com/user-attachments/assets/93c7bf06-983b-49c9-815f-13f71b028a7e)
+ 3. Run 'sudo netplan apply' to read and confirm the changes made in the .yaml file
+    
+    ![image](https://github.com/user-attachments/assets/ef4007ea-05c2-478b-9537-91d2d177796d)
+ 
 

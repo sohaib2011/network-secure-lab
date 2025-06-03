@@ -1,3 +1,5 @@
+This guide does not apply only for pfSense - it works for any VM you want to access from host e.g the webserver in /apache_server. SAme principle applies
+
 ### VMware Configurations 
 
 1. Since my Ubuntu Server runs in terminal-mode, and lynx is insufficient for the full access of pfsense interface, we need proper GUI access to pfSense.

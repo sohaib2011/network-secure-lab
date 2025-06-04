@@ -38,4 +38,5 @@ The LAN client cant share the same network interface as the dmz webserver. The s
     
     ![image](https://github.com/user-attachments/assets/ef4007ea-05c2-478b-9537-91d2d177796d)
  
-
+4. For the host access, the same steps applies here as in /pfsense/host-access-to-vms.md. However for this VM, change uncheck "Use local dhcp to distribute ip adress to vms" in Virtual Network Editor.
+   The reason for this is because we are using static ips.

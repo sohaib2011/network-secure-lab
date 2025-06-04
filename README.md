@@ -1,3 +1,6 @@
+## Objective
+
+
 ## Network Architecture
 
 This lab replicates a simplified enterprise network environment using **pfSense** as the core router/firewall

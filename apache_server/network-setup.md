@@ -1,4 +1,4 @@
-This guide is a walkthrough for setting up a webserver inside a DMZ
+This guide walks through configuring pfSense and assigning a static IP to a server inside the DMZ.
 
 ### pfSense Configuration (DMZ Interface)
 

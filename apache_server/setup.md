@@ -1,6 +1,6 @@
 This guide is a walkthrough for setting up a webserver inside a DMZ
 
-### Network Adapter Configuration
+### pfSense Configuration (DMZ Interface)
 
 1. Add a new network adapter as shown in the /pfSense folder in github. This will be connected to VMnet3. The same process applies to the DMZ server
 
@@ -21,7 +21,7 @@ This guide is a walkthrough for setting up a webserver inside a DMZ
    ![image](https://github.com/user-attachments/assets/b62cfb66-0d49-43ec-b13d-8675d4c954d5)
 
  
-### Ubuntu Network Adapter Configuration
+### Ubuntu Network Adapter Configuration (Static IP)
 The LAN client cant share the same network interface as the dmz webserver. The simplesst appproach is to clone the existing Ubuntu VM and chcange its network adapter to VMnet3
 
  1. ens33 (the adapter connected to VMnet) is not assigned to any ip adresses. Since this server will act as the webserver in DMZ, we must assign a static ip adress. Assignment through DHCP would be unideal and a bad choice for this.
@@ -34,12 +34,17 @@ The LAN client cant share the same network interface as the dmz webserver. The s
 
      ![image](https://github.com/user-attachments/assets/93c7bf06-983b-49c9-815f-13f71b028a7e)
     
- 4. Next, we must configure the pfSense interface that connects with the DMZ network. This will act as a gateway for all components within DMZ. Make sure to save and apply the changes!
+ 3. Next, we must configure the pfSense interface that connects with the DMZ network. This will act as a gateway for all components within DMZ. Make sure to save and apply the changes!
     
     <img src=https://github.com/user-attachments/assets/9f3c6bf3-3f28-453d-aa0c-8b111d886eac width=750>  
 
- 6. Run 'sudo netplan apply' to read and confirm the changes made in the .yaml file
+ 4. Run 'sudo netplan apply' to read and confirm the changes made in the .yaml file
     
     ![image](https://github.com/user-attachments/assets/ef4007ea-05c2-478b-9537-91d2d177796d)
+
+ 5. To verify that the network setup works as intended, we run a check for the IP and routing. As seen in the image below, it works perfectly!!!
+    ![image](https://github.com/user-attachments/assets/473156dd-dd65-406d-9b9b-13173a58c97a)
+
  
-Bonus step (yet important): For the host access, the same steps applies here as in /pfsense/host-access-to-vms.md. However for this VM, uncheck "Use local dhcp to distribute ip adress to vms" in Virtual Network Editor - because this machine relies on static IPs.
+### ⚠️ Host Access Note (Important!)
+For the host access, the same steps applies here as in /pfsense/host-access-to-vms.md. However for this VM, uncheck "Use local dhcp to distribute ip adress to vms" in Virtual Network Editor - because this machine relies on static IPs.

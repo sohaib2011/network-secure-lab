@@ -1,4 +1,4 @@
-This guide will showcase how to configure an Ubuntu Server as a LAN client in a virtual network environment using pfSense as the firewall and DHCP server.
+This guide will showcase how to configure an Ubuntu Server as a LAN client in a virtual network environment using pfSense as the firewall and DHCP server
 
 ---
 
